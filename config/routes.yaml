@@ -1,0 +1,8 @@
+scalar_docs:
+    # resource: "../src/Controller/"
+    resource:
+        path: "../src/Controller/" #"@ScalarDocBundle/src/Controller/"
+        namespace: Everbit\Bundle\ScalarDocBundle\Controller
+
+    type: attribute
+    prefix: everbit_scalar_docs_

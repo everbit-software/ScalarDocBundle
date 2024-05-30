@@ -1,0 +1,5 @@
+services:
+    Everbit\Bundle\ScalarDocBundle\Controller:
+        resource: "../src/Controller/*"
+        autowire: true
+        autoconfigure: true
